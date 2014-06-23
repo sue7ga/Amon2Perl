@@ -16,6 +16,7 @@ __PACKAGE__->load_plugins(
     'Web::FillInFormLite',
     'Web::JSON',
     '+MyApp::Web::Plugin::Session',
+    'DBI',
 );
 
 # setup view
